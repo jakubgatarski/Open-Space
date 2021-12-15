@@ -1,0 +1,16 @@
+.space {
+    background-image: url("space.png");
+    background-size: auto;
+}
+
+img.rocket{
+    height: 150px;
+    width: auto;
+    transform: rotate(30deg);
+    position: relative;
+    top: -500px;
+    left: -400px;
+}
+.planet{
+
+}

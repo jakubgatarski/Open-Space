@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Open Space</title>
     <link rel="stylesheet" href="style.css">
+    <script src="openSpace.js" defer></script>
 </head>
 <body>
 <div class="space">
@@ -19,23 +20,24 @@
             <input id="unlock-btn" type="button" value="OK">
 
             <div class="check-buttons">
-                <input type="button" value="X">
-                <input type="button" value="X">
-                <input type="button" value="X">
-                <input type="button" value="X">
-                <input type="button" value="X">
-                <input type="button" value="X">
+                <input type="checkbox" class="check" disabled>
+                <input type="checkbox" class="check" disabled>
+                <input type="checkbox" class="check" disabled>
+                <input type="checkbox" class="check" disabled>
+                <input type="checkbox" class="check" disabled>
+                <input type="checkbox" class="check" disabled>
             </div>
             <div class="levers">
-                <input type="range" orient="vertical">
-                <input type="range" orient="vertical">
-                <input type="range" orient="vertical">
-                <input type="range" orient="vertical">
-                <input type="range" orient="vertical">
+                <input type="range" orient="vertical" class="range" disabled>
+                <input type="range" orient="vertical" class="range" disabled>
+                <input type="range" orient="vertical" class="range" disabled>
+                <input type="range" orient="vertical" class="range" disabled>
+                <input type="range" orient="vertical" class="range" disabled>
             </div>
-            <input id="launch-btn" type="button" value="Launch">
+            <input id="launch-btn" type="button" value="Launch" disabled>
         </div>
     </div>
 </div>
+
 </body>
 </html>

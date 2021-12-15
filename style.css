@@ -2,15 +2,68 @@
     background-image: url("space.png");
     background-size: auto;
 }
+body{
 
+}
 img.rocket{
     height: 150px;
     width: auto;
     transform: rotate(30deg);
-    position: relative;
-    top: -500px;
-    left: -400px;
+    /*position: absolute;
+    top: 500px;
+    left: 40px;*/
+    position: absolute;
+    top: 250px;
+    left: 520px;
 }
-.planet{
+.control-panel{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    background: linear-gradient(cornflowerblue, blueviolet);
+    width: 30%;
+    height: 40%;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    */
+    align-content:  center;
+    text-align: center;
+
+}
+
+#password{
+    width: 200px;
+    text-align: center;
+    margin: 3%;
+}
+
+
+.check-buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    flex-direction: row;
+
+}
+input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 100%;
+    height: 100%;
+}
+
+.levers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3%;
+
+
+
+}
+#launch-btn{
+    /*align-self: end;*/
 
 }

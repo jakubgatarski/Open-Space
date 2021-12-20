@@ -34,7 +34,16 @@
                 <input type="range" orient="vertical" class="range" onchange="checkInputs()" disabled>
                 <input type="range" orient="vertical" class="range" onchange="checkInputs()" disabled>
             </div>
+            <div id="angle-container">
+                <p>Change rocket angle:</p>
+                <input id="angle-change" type="range" min="0" max="360" step="1" value="30" oninput="changeAngle()" disabled>
+            </div>
+            <div id="speed-container">
+                <p>Change rocket speed:</p>
+                <input id="speed-change" type="range" min="0" max="2" step="0.1" value="1" disabled>
+            </div>
             <input id="launch-btn" type="button" value="Launch" disabled>
+
         </div>
     </div>
 </div>

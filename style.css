@@ -5,10 +5,13 @@
 body{
 
 }
+
 img.rocket{
     height: 150px;
     width: 150px;
+    /*transform-origin:top left;*/
     transform: rotate(30deg);
+
     /*position: absolute;
     top: 500px;
     left: 40px;*/
@@ -46,6 +49,7 @@ img.rocket{
     color: black;
     border: black 3px;
     border-radius: 30px;
+    cursor: pointer;
 }
 #launch-btn{
     background-color: orangered;
@@ -54,11 +58,14 @@ img.rocket{
     border-color: white;
     width: 30%;
     height: 200%;
+    cursor: pointer;
+    margin-bottom: 5px;
 }
 
 
 
 .check-buttons{
+
     display: flex;
     justify-content: space-around;
     padding: 3%;
@@ -67,6 +74,7 @@ img.rocket{
 }
 input[type=range][orient=vertical]
 {
+
     writing-mode: bt-lr; /* IE */
     -webkit-appearance: slider-vertical; /* WebKit */
     width: 100%;
@@ -80,6 +88,18 @@ input[type=range][orient=vertical]
     padding: 3%;
 
 
+
+}
+#speed-container,
+#angle-container{
+    display: flex;
+    justify-content: space-around;
+    color: yellow;
+}
+#speed-change,
+#angle-change{
+    /*background-color: yellow;*/
+    width: 62%;
 
 }
 
